@@ -6,13 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 		<link rel="preload" href="./assets/fonts/SFuidisplay-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
-		<title>Главная страница</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1759329176727"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1759329176727">
+		<title>Клуб</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1759329176728"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1759329176728">
 	</head>
 	<body>
 		<div class="wrapper">
-			<main class="page page--home">
+			<main class="page page--club">
 				<section class="hero" data-fls-hero="">
 					<div class="hero__wrapper">
 						<picture>
@@ -20,6 +20,37 @@
 							<source srcset="./assets/img/home/hero768.webp" media="(min-width: 574.98px)">
 							<img class="hero__bg" src="./assets/img/home/hero380.jpg" alt="" loading="lazy" data-fls-image-ignore="">
 						</picture>
+					</div>
+					<div class="club-bnr" data-fls-clubbnr="">
+						<div class="club-bnr__container">
+							<div class="club-bnr__wrapper">
+								<img src="./assets/img/club/club-bnr-bg.svg" alt="Фоновое изображение" class="club-bnr__bg" loading="lazy">
+								<img src="./assets/img/club/club-bnr-ornament.svg" alt="Фоновое изображение" class="club-bnr__ornament" loading="lazy">
+								<div class="club-bnr__scheme">
+									<div class="club-bnr__left">
+										<h2 class="club-bnr__title">Лучшие условия для участников Клуба!</h2>
+										<div class="club-bnr__text _content">
+											<p>
+												Мы ценим то, что вы состоите в Закрытом клубе, и поэтому предоставляем вам привилегированные условия и в других проектах Алины Гесс.
+											</p>
+										</div>
+									</div>
+									<div class="club-bnr__right">
+										<div class="club-bnr__ths">
+											<picture>
+												<img alt="Спасибо за ваше доверие!" loading="lazy" src="./assets/img/club/club-bnr-ths.webp" srcset="./assets/img/club/club-bnr-ths.webp 1x,./assets/img/club/club-bnr-ths-2x.webp 2x">
+											</picture>
+										</div>
+										<div class="club-bnr__text _content">
+											<p>
+												Для вас предусмотрено участие в новом
+												<b>онлайн-тренинге «Деньги и предназначения» по самой лучшей стоимости.</b>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 				<section class="reasons" data-fls-reasons="">
@@ -925,17 +956,17 @@
 								<form action="#" class="request__form" data-fls-form="">
 									<div class="form__row" data-fls-cols="">
 										<div class="col-12">
-											<label for="req-email" class="form__label">Ваша электронная почта*</label>
+											<label for="req2-email" class="form__label">Ваша электронная почта*</label>
 											<div class="input-wrapper">
-												<input id="req-email" data-fls-input="" data-fls-form-validatenow="" autocomplete="off" type="email" name="req-email" data-fls-form-errtext="Обязательное поле" placeholder="Введите..." class="input" required>
+												<input id="req2-email" data-fls-input="" data-fls-form-validatenow="" autocomplete="off" type="email" name="req2-email" data-fls-form-errtext="Обязательное поле" placeholder="Введите..." class="input" required>
 												<svg class="icon">
 													<use href="./assets/img/spritemap.svg#sprite-email"></use>
 												</svg>
 											</div>
 										</div>
 										<div class="col-12">
-											<div class="form__submit" data-fls-button="">
-												<button type="submit" class="btn btn--cyan">зарегистрироваться на курс</button>
+											<div class="form__submit">
+												<button type="submit" class="btn btn--cyan">зарегистрироваться на онлайн-тренинг</button>
 											</div>
 										</div>
 									</div>
@@ -1075,7 +1106,7 @@
 										</div>
 										<div class="col-12">
 											<div class="form__submit">
-												<button type="submit" class="btn btn--cyan">зарегистрироваться на курс</button>
+												<button type="submit" class="btn btn--cyan">зарегистрироваться на онлайн-тренинг</button>
 											</div>
 										</div>
 									</div>
