@@ -1990,6 +1990,11 @@ body::after {
     left: 50%;
     translate: -50% 0;
   }
+  .format__wrapper--var2 .format__img {
+    scale: 1.2;
+    left: 60%;
+    bottom: -3%;
+  }
   .format__wrapper--var3 .format__body {
     padding-block: 2.25rem;
     max-width: 20.5rem !important;
